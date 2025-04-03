@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--for fancybox image gallery-->
+    <link rel="stylesheet" href="fancybox/fancybox.css"/>
+
+    <link rel="stylesheet" href="bxslider/jquery.bxslider.min.css">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <script src="bxslider/jquery.min.js"></script>
+    <script src="bxslider/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $(".serene_slider").bxSlider();
+        });
+
+        $(document).ready(function(){
+          $(".serene_slider2").bxSlider();
+        });
+      </script>
+
+</head>
+
+<body>
+
+    <!--hamburger icon-->
+    <input type="checkbox" id="menu"/>
+        <label for="menu" class="hamburger mobile_only">
+        <ion-icon name="menu-outline"></ion-icon>
+        </label>
+    <!--end hamburger icon-->
+
+    <!--off canvas navigation-->
+    <nav class="off_navi">          
+        <h3>Navigation</h3>
+        <ul class="navi_bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="natural.html">Explore Nature</a></li>
+            <li><a href="food.html">Local Flavors</a></li>
+            <li><a href="heritage.html">Heritage</a></li>
+            <li><a href="plan.html">Travel Guide</a></li>
+        </ul>
+    </nav>
+    <!--end off canvas navigation-->
+
+    <div id="wrapper">
+
+        <header class="sticky">
+            <div class="container flex_2col">
+                <div class="logo">
+                    <img src="images/logo.png" />
+                </div><!--end of logo-->
+
+                <ul class="main_navi desktop_only">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="natural.html">Explore Nature</a></li>
+                    <li><a href="food.html">Local Flavors</a></li>
+                    <li><a href="heritage.html">Heritage</a></li>
+                    <li><a href="plan.html">Travel Guide</a></li>
+                </ul>
+
+            </div><!--end of container-->
+        </header>
+
+        <div id="home_hero">
+            <div class="container flex_2col">
+
+            <div class="home_hero_image">
+                    <img src=".//images/home_hero_image.png" />
+            </div><!--end of home_hero_image-->
+
+            <div class="herobox">
+                <h2 class="orangetext">Discover Your Unfold 
+                    Beauty In Pontian</h2>
+                <p class="darkgreentext">Stroll through lush mangroves, breathe in crisp sea air, and savor local delights rich in tradition. In Pontian, every moment invites you to slow down, embrace nature, and enjoy life's simple joys.</p>
+            </div><!--end herobox-->
+
+            </div><!--end of container-->
+        </div><!--end of home_hero-->
+
+        <div id="home_intro">
+            <div class="container flex_2col">
+                <div class="home_intro_image">
+                    <img src="images/home_intro_image.png" />
+                </div><!--end of home_intro_image-->
+                
+                <div class="home_intro_text">
+                    <div class="flex centered_flex">
+                        <div class="icon">
+                            <img src="images/treeicon.png" />
+                        </div><!--end of icon-->
+                
+                        <div class="icontext">
+                         <h1 class="lightgreentext"><li>Fall in love with</li></h1>
+                        </div><!--end of icontext-->
+                    </div>
+
+                    <h3 class="orangetext">Pontian</h3>
+                    <p class="darkgreentext">Nestled along Johor's coastline, Pontian is a captivating destination where nature, culture, and history intertwine. Wander through mangrove forests teeming with wildlife, explore traditional fishing villages, and immerse yourself in the town's heritage. From vibrant murals telling stories of the past to the aroma of freshly brewed coffee, every corner of Pontian has a tale to share. Whether you're savoring authentic flavors, gazing at coastal sunsets, or discovering hidden gems, Pontian offers a perfect escape—where tranquility meets tradition, and every journey feels like home.</p>
+                </div><!--end of home_intro_text-->
+
+            </div><!--end of container-->
+        </div><!--end of home_intro-->
+
+        <div id="home_gallery">
+            <div class="container">
+                <div class="home_gallery_title">
+                    <h3 class="lightgreentext">A Journey Through Pontian's Landmarks</h3>
+                </div><!--end of home_gallery_title-->
+
+                <ul class="grid_card">
+                    <li class="card">
+                        <img src="images/home_gallery_card1.jpg" />
+
+                        <div class="card1 flex">
+                            <div class="icon">
+                                <img src="images/locationicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                             <h1 class="darkorangetext"><li>Tanjung Piai National Park</li></h2>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <p class="darkgreentext">Stand at the southernmost tip of mainland Asia and walk through lush mangrove forests.</p>
+                        <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.841102204572!2d103.5094726!3d1.2681356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0a999e232063f%3A0x9ea9f9581f2ca360!2z5p-U5L2b5Li557uS5q-U6Im-5Zu95a625YWs5Zut!5e0!3m2!1szh-CN!2smy!4v1743348541646!5m2!1szh-CN!2smy" class="btn_green">Explore</a></h4>
+                    </li>
+
+                    <li class="card">
+                        <img src="images/home_gallery_card2.jpg" />
+                        
+                        <div class="flex">
+                            <div class="icon">
+                                <img src="images/locationicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                             <h1 class="darkorangetext"><li>Pontian Mural Street</li></h2>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <p class="darkgreentext">A walk through vibrant street art that tells the story of Pontian's people and culture.</p>
+                        <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4771997433695!2d103.38520099678959!3d1.4856180000000103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d09900656f095f%3A0x587839f1daaf85c5!2sPontian%20Mural%20Street!5e0!3m2!1szh-CN!2smy!4v1743349347495!5m2!1szh-CN!2smy" class="btn_green">Explore</a></h4>
+                    </li>
+
+                    <li class="card">
+                        <img src="images/home_gallery_card3.jpg" />
+                        
+                        <div class="flex">
+                            <div class="icon">
+                                <img src="images/locationicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                             <h1 class="darkorangetext"><li>Kopi Tenggek Tanjung Piai</li></h2>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <p class="darkgreentext">Taste locally brewed coffee with a unique brewing method enhances its bold flavors.</p>
+                        <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.799013032428!2d103.48893730948944!3d1.2951583986870845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0a90539a7b4fd%3A0xc5e1623dd5438a6a!2sKopi%20Tenggek%20Tanjung%20Piai!5e0!3m2!1szh-CN!2smy!4v1743353376819!5m2!1szh-CN!2smy" class="btn_green">Explore</a></h4>
+                    </li>
+                </ul>
+
+            </div><!--end of container-->
+        </div><!--end of home_gallery-->
+
+        <div id="home_plan">
+            <div class="container flex_2col">
+
+                <div class="home_plan_text">
+                    
+                    <div class="flex centered_flex">
+                        <div class="icon">
+                            <img src="images/luggageicon.png" />
+                        </div><!--end of icon-->
+                
+                        <div class="icontext">
+                         <h1 class="lightgreentext"><li>Plan Smart, Travel Easy</li></h2>
+                        </div><!--end of icontext-->
+                    </div>
+                    <h3 class="orangetext">Pontian Travel Guide</h3>
+                    <p class="darkgreentext">Nestled along Johor's coastline, Pontian is a gem where nature meets culture. Explore mangroves, wander floating villages, and experience heritage. Enjoy traditional coffee or coastal scenery—Pontian blends tranquility and tradition.</p>
+                </div><!--end of home_plan_text-->
+
+                <div class="home_plan_card">
+                    <ul class="grid_card">
+    
+                        <li class="card">
+                            <div>
+                            <img src="images/home_plan_card1.jpg" />
+                            </div>
+
+                            <div class="cardtext_container">
+                            <h1 class="lightgreentext">Your Travel Timeline</h1>
+                            <p class="darkgreentext">Not sure where to start? Let us guide you through a well-planned timeline for a smooth and enjoyable trip. Whether it's a one-day or two-day adventure, explore Pontian's best spots at your own pace.</p>
+                            <h4><a href="plan.html#timeline_title" class="btn_green">More</a></h4>
+                            </div>
+                        </li>
+    
+                        <li class="card">
+                            <div>
+                                <img src="images/home_plan_card2.jpg" />
+                            </div>
+
+                            <div class="card_text_container">
+                            <h1 class="lightgreentext">Travel Must-Haves</h1>
+                            <p class="darkgreentext">Make the most of your journey with the right essentials! From comfortable clothing to must-bring gear for nature walks, check out our detailed list to stay fully prepared for an effortless.
+                            </p>
+                            <h4><a href="plan.html#plan_gallery" class="btn_green">More</a></h4>
+                        </div>
+                        </li>
+                    </ul>
+                </div><!--end of home_plan_card-->
+
+            </div><!--end of container-->
+        </div><!--end of home_plan-->
+
+        <div id="home_cta">
+            <div class="container">
+                <div class="home_cta_text">
+                    <h3 class="yellowtext">Uncover the Heart of Pontian!</h3>
+                    <p>Pontian is more than just a stop—it's a journey of discovery. From charming heritage spots to nature's hidden gems, this coastal town is bursting with experiences waiting to be explored. Indulge in comforting local delights, capture postcard-worthy moments, and create memories that will last a lifetime.</p>
+                    <h4><a href="plan.html" class="btn_green">Plan Your Trip</a></h4>
+                </div><!--end of home_cta_text-->
+            </div><!--end of container-->
+        </div><!--end of home_cta-->
+
+        <footer>
+            <div class="container">
+                <div class="footer_text">
+                    <h4 class="whitetext"> Discover Pontian</h4>
+                    <p class="whitetext">© 2024 All Rights Reserved. Designed & Developed by Choo Kai Xin & Teo Shi Lin.</p>
+                </div><!--end of footer_text-->
+            </div><!--end of container-->
+        </footer>
+
+    </div><!--end of wrapper-->
+
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    <!--for fancybox image gallery-->
+    <script src="fancybox/fancybox.umd.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Guide</title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--for fancybox image gallery-->
+    <link rel="stylesheet" href="fancybox/fancybox.css"/>
+
+    <link rel="stylesheet" href="bxslider/jquery.bxslider.min.css">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <script src="bxslider/jquery.min.js"></script>
+    <script src="bxslider/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $(".serene_slider").bxSlider();
+        });
+
+        $(document).ready(function(){
+          $(".serene_slider2").bxSlider();
+        });
+      </script>
+
+</head>
+
+<body>
+
+    <!--hamburger icon-->
+    <input type="checkbox" id="menu"/>
+        <label for="menu" class="hamburger mobile_only">
+        <ion-icon name="menu-outline"></ion-icon>
+        </label>
+    <!--end hamburger icon-->
+
+    <!--off canvas navigation-->
+    <nav class="off_navi">          
+        <h3>Navigation</h3>
+        <ul class="navi_bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="natural.html">Explore Nature</a></li>
+            <li><a href="food.html">Local Flavors</a></li>
+            <li><a href="heritage.html">Heritage</a></li>
+            <li><a href="plan.html">Travel Guide</a></li>
+        </ul>
+    </nav>
+    <!--end off canvas navigation-->
+
+    <div id="wrapper">
+
+        <header class="sticky">
+            <div class="container flex_2col">
+                <div class="logo">
+                    <img src="images/logo.png" />
+                </div><!--end of logo-->
+
+                <ul class="main_navi desktop_only">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="natural.html">Explore Nature</a></li>
+                    <li><a href="food.html">Local Flavors</a></li>
+                    <li><a href="heritage.html">Heritage</a></li>
+                    <li><a href="plan.html">Travel Guide</a></li>
+                </ul>
+
+            </div><!--end of container-->
+        </header>
+
+        <div id="food_hero">
+            <div class="container flex_2col">
+
+                <div class="food_hero_image">
+                        <img src=".//images/food_hero.png" />
+                </div><!--end of food_hero_image-->
+    
+                <div class="food_hero_text">
+                    <h2 class="orangetext">A Foodie's Guide to Pontian's Best</h2>
+                    <p class="darkgreentext">Pontian's culinary scene is a delightful mix of tradition and innovation. From rich, aromatic coffee to comforting noodle dishes and refreshing local desserts, every bite carries a piece of the town's heritage.</p>
+                </div><!--end of food_hero_text-->
+    
+            </div><!--end of container-->
+        </div><!--end of food_hero-->
+
+        <div id="yqx">
+            <div class="container">
+
+            <div>
+                <div class="yqx_title">
+                    <h2 class="lightgreentext">Satisfying Meals to Fuel Your Journey</h2>
+                </div><!--end of yqx_title-->
+            </div>
+
+            <div class="container flex_2col">
+
+                    <div class="yqx_image">
+                        <img src="images/food_yongquanxiang.png" />
+                    </div><!--end of yqx_image-->
+
+                    <div class="yqx_text">
+                        <div class="flex centered_flex">
+                            <div class="icon">
+                                <img src="images/cupicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <h1 class="lightgreentext"><li>The Taste of Nostalgia</li></h1>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <h3 class="orangetext">Kopitiam Jong Suan Hiang</h3>
+                        <p class="darkgreentext">Step into a nostalgic coffee shop where every sip and bite bring back the taste of the past, with rich, aromatic coffee and crispy kaya toast.</p>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/checkicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Charcoal Toasted Bread</span>
+                                    <span class="dosis darkgreentext">- Crispy on the outside, soft inside, perfectly paired with homemade kaya.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/checkicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Classic Kopitiam Coffee</span>
+                                    <span class="dosis darkgreentext">- Rich, aromatic, and brewed the traditional way for that authentic taste.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/clockicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Operation Time:</span>
+                                    <span class="dosis darkgreentext">Everyday except for Tuesday, 7:00 to 12:30</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="button_2col">
+                            <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4776672962985!2d103.38727720948995!3d1.4853589984944404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0994a70b2db53%3A0xddf1bafb166e4753!2z5raM5rOJ6aaZ!5e0!3m2!1szh-CN!2smy!4v1743416258730!5m2!1szh-CN!2smy" class="btn_green">Find on Google Map</a></h4>
+                        </div>
+
+                    </div><!--end of yqx_text-->
+            </div><!--end of container>-->
+            </div><!--end of container-->
+        </div><!--end of yqx-->
+
+        <div id="hanada">
+            <div class="container">
+
+                <div class="container flex_2col">
+
+                    <div class="serene_slider">
+                        <div class="slide1"></div>
+                        <div class="slide2"></div>
+                        <div class="slide3"></div>
+                        <div class="slide4"></div>
+                    </div>
+
+                    <div class="hanada_text">
+                        <div class="flex centered_flex">
+                            <div class="icon">
+                                <img src="images/noddleicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <h1 class="lightgreentext"><li>A Cozy Taste of Japan in Pontian</li></h1>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <h3 class="orangetext">Hanada House</h3>
+                        <p class="darkgreentext">A charming neighborhood eatery serving comforting ramen, crispy cutlets, and tempura prawn dishes at wallet-friendly prices.</p>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/checkicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Authentic Ramen</span>
+                                    <span class="dosis darkgreentext">- Rich, flavorful broth with perfectly cooked noodles.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/checkicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Warm & Inviting Ambiance</span>
+                                    <span class="dosis darkgreentext">- A cozy neighborhood spot for a comforting dining experience.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/clockicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Operation Time:</span>
+                                    <span class="dosis darkgreentext">Everyday except for Thursday, 11:30am to 3:30pm and 5:30pm-9:00pm</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="button_2col">
+                            <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4390985269956!2d103.51104570949006!3d1.506574598472957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d09f09941d1de3%3A0x79ca79360c74c96f!2zSEFOQVlBIOiKseeUsOWxiw!5e0!3m2!1szh-CN!2smy!4v1743416288033!5m2!1szh-CN!2smy" class="btn_green">Find on Google map</a></h4>
+                        </div>
+
+                    </div><!--end of hanada_text-->
+            </div><!--end of container>-->
+            
+            </div><!--end of container-->
+        </div><!--end of hanada-->
+
+        <div id="yuyuice">
+            <div class="container">
+
+                <div>
+                    <div class="yuyuice_title">
+                        <h2 class="lightgreentext">Sweet & Refreshing Treats to Cool You Down</h2>
+                    </div><!--end of yuyuice_title-->
+                </div>
+    
+                <div class="container flex_2col">
+    
+                        <div class="yuyuice_image">
+                            <img src="images/food_yuyuice.png" />
+                        </div><!--end of yuyuice_image-->
+    
+                        <div class="yuyuice_text">
+                            <div class="flex centered_flex">
+                                <div class="icon">
+                                    <img src="images/iceicon.png" />
+                                </div><!--end of icon-->
+                        
+                                <div class="icontext">
+                                    <h1 class="lightgreentext"><li>A Cool & Refreshing Treat</li></h1>
+                                </div><!--end of icontext-->
+                            </div>
+    
+                            <h3 class="orangetext">Yu Yu Ice (Shaved Ice)</h3>
+                            <p class="darkgreentext">A classic dessert shop serving finely shaved ice with grape, red bean, corn, and sour plum toppings—perfect for cooling off on a sunny day.</p>
+    
+                            <div class="flex left_flex">
+                                <div class="icon">
+                                    <img src="images/greencheckicon.png" />
+                                </div><!--end of icon-->
+                        
+                                <div class="icontext">
+                                    <p>
+                                        <span class="breeserif orangetext">Signature Grape Ice</span>
+                                        <span class="dosis darkgreentext">- A sweet and fruity favorite with a vibrant purple hue.</span>
+                                    </p>
+                                </div><!--end of icontext-->
+                            </div>
+    
+                            <div class="flex left_flex">
+                                <div class="icon">
+                                    <img src="images/greencheckicon.png" />
+                                </div><!--end of icon-->
+                        
+                                <div class="icontext">
+                                    <p>
+                                        <span class="breeserif orangetext">Classic Red Bean & Corn</span>
+                                        <span class="dosis darkgreentext">- A delightful mix of texture and taste.</span>
+                                    </p>
+                                </div><!--end of icontext-->
+                            </div>
+
+                            <div class="flex left_flex">
+                                <div class="icon">
+                                    <img src="images/greenclockicon.png" />
+                                </div><!--end of icon-->
+                        
+                                <div class="icontext">
+                                    <p>
+                                        <span class="breeserif orangetext">Operation Time:</span>
+                                        <span class="dosis darkgreentext">Everyday except for Tuesday, 10:00am to 4:00pm</span>
+                                    </p>
+                                </div><!--end of icontext-->
+                            </div>
+    
+                            <div class="button_2col">
+                                <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.468769359645!2d103.39318019999997!3d1.4902803000000029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0986f8ba5d7f3%3A0xa60e033161a7c9d!2z5pGH5pGH5Yaw!5e0!3m2!1szh-CN!2smy!4v1743416333312!5m2!1szh-CN!2smy" class="btn_orange">Find on Google Map</a></h4>
+                            </div>
+    
+                        </div><!--end of yuyuice_text-->
+                </div><!--end of container>-->
+
+            </div><!--end of container-->
+        </div><!--end of yuyuice-->
+
+        <div id="summerice">
+            <div class="container">
+
+                <div class="container flex_2col">
+
+                    <div class="serene_slider">
+                        <div class="slide1"></div>
+                        <div class="slide2"></div>
+                        <div class="slide3"></div>
+                        <div class="slide4"></div>
+                    </div>
+
+                    <div class="summerice">
+                        <div class="flex centered_flex">
+                            <div class="icon">
+                                <img src="images/iceicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <h1 class="orangetext"><li>Cool Down with a Unique Treat</li></h1>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <h3 class="lightgreentext">Summerly Ice House</h3>
+                        <p class="darkgreentext">A one-of-a-kind dessert spot featuring refreshing jellyfish ice, crispy shrimp crackers, and flavorful rojak—perfect for adventurous foodies.</p>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/greencheckicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif orangetext">Jellyfish Ice Dessert</span>
+                                    <span class="dosis darkgreentext">- A one-of-a-kind creation that surprises and refreshes.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/greencheckicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif orangetext">Flavorful Rojak</span>
+                                    <span class="dosis darkgreentext">- A mix of fresh fruits and a bold, tangy sauce for the perfect sweet-savory balance.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+                        
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/greenclockicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif orangetext">Operation Time:</span>
+                                    <span class="dosis darkgreentext">Everyday except for Wednesday, 11:00am to 5:30pm</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="button_2col">
+                            <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7502421571376!2d103.44052970948955!3d1.3257824986560647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0af56e53ad33b%3A0x943d4b5e7b10968b!2z5aSP5pel5Yaw5LmL5bGL!5e0!3m2!1szh-CN!2smy!4v1743416379182!5m2!1szh-CN!2smy" class="btn_orange">Find on Google Map</a></h4>
+                        </div>
+
+                    </div><!--end of summerice-->
+            </div><!--end of container-->
+            
+            </div><!--end of container-->
+        </div><!--end of summerice-->
+
+        <div id="food_gallery">
+            <div class="container">
+
+                <div class="food_gallery_title">
+                    <h3 class="lightgreentext">More Local Eats Worth Trying</h3>
+                </div><!--end of food_gallery_title-->
+
+                <ul class="grid_card">
+                    <li class="card">
+                        <img src="images/food_card1.jpg" />
+
+                        <div class="card1 flex">
+                            <div class="icontext">
+                             <h1 class="darkorangetext"><li>Tiantai Rooftop Hotpot</li></h2>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <p class="darkgreentext">Enjoy satisfying hotpot while soaking in stunning coastal views. Fresh ingredients, rich broths, and cool sea breeze make it a dining experience to remember.</p>
+                        <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510526.11168407823!2d102.77515808906251!3d1.4811536000000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0a29d9749c2c3%3A0x69b83ed83409af6!2z5aSp5Y-w!5e0!3m2!1szh-CN!2smy!4v1743416428773!5m2!1szh-CN!2smy" class="btn_green">Explore</a></h4>
+                    </li>
+
+                    <li class="card">
+                        <img src="images/food_card2.jpg" />
+                        
+                        <div class="flex">
+                            <div class="icontext">
+                             <h1 class="darkorangetext"><li>Kopi Tenggek</li></h2>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <p class="darkgreentext">A traditional coffee stall where every cup is brewed with passion and served with a twist—literally! Enjoy rich, aromatic coffee with a unique pouring style.</p>
+                        <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.799013032428!2d103.48893730948942!3d1.2951583986870938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0a90539a7b4fd%3A0xc5e1623dd5438a6a!2sKopi%20Tenggek%20Tanjung%20Piai!5e0!3m2!1szh-CN!2smy!4v1743416462445!5m2!1szh-CN!2smy" class="btn_green">Explore</a></h4>
+                    </li>
+
+                    <li class="card">
+                        <img src="images/food_card3.jpg" />
+                        
+                        <div class="flex">
+                            <div class="icontext">
+                             <h1 class="darkorangetext"><li>Xing Xing Dry Noodles</li></h2>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <p class="darkgreentext">A must-try local specialty—springy dry noodles tossed in a tangy, savory tomato-based sauce, offering a refreshing twist on a classic dish.</p>
+                        <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.486502521743!2d103.39152390948999!3d1.480456198499409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0987819e1be07%3A0x651ed966e66b315f!2z5YW05YW05bmy5o2e6Z2i!5e0!3m2!1szh-CN!2smy!4v1743416509569!5m2!1szh-CN!2smy" class="btn_green">Explore</a></h4>
+                    </li>
+                </ul>
+
+            </div><!--end of container-->
+        </div><!--end of food_gallery-->
+
+        <div id="home_cta">
+
+            <div class="container">
+                <div class="home_cta_text">
+                    <h3 class="yellowtext">Uncover the Heart of Pontian!</h3>
+                    <p>Pontian is more than just a stop—it's a journey of discovery. From charming heritage spots to nature's hidden gems, this coastal town is bursting with experiences waiting to be explored. Indulge in comforting local delights, capture postcard-worthy moments, and create memories that will last a lifetime.</p>
+                    <h4><a href="plan.html" class="btn_green">Plan Your Trip</a></h4>
+                </div><!--end of home_cta_text-->
+            </div><!--end of container-->
+
+        </div><!--end of home_cta-->
+
+        <footer>
+
+            <div class="container">
+                <div class="footer_text">
+                    <h4 class="whitetext"> Discover Pontian</h4>
+                    <p class="whitetext">© 2024 All Rights Reserved. Designed & Developed by Choo Kai Xin & Teo Shi Lin.</p>
+                </div><!--end of footer_text-->
+            </div><!--end of container-->
+
+        </footer>
+
+    </div><!--end of wrapper-->
+    
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    <!--for fancybox image gallery-->
+    <script src="fancybox/fancybox.umd.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Plan</title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--for fancybox image gallery-->
+    <link rel="stylesheet" href="fancybox/fancybox.css"/>
+
+    <link rel="stylesheet" href="bxslider/jquery.bxslider.min.css">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <script src="bxslider/jquery.min.js"></script>
+    <script src="bxslider/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $(".serene_slider").bxSlider();
+        });
+
+        $(document).ready(function(){
+          $(".serene_slider2").bxSlider();
+        });
+      </script>
+
+</head>
+
+<body>
+
+    <!--hamburger icon-->
+    <input type="checkbox" id="menu"/>
+        <label for="menu" class="hamburger mobile_only">
+        <ion-icon name="menu-outline"></ion-icon>
+        </label>
+    <!--end hamburger icon-->
+
+    <!--off canvas navigation-->
+    <nav class="off_navi">          
+        <h3>Navigation</h3>
+        <ul class="navi_bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="natural.html">Explore Nature</a></li>
+            <li><a href="food.html">Local Flavors</a></li>
+            <li><a href="heritage.html">Heritage</a></li>
+            <li><a href="plan.html">Travel Guide</a></li>
+        </ul>
+    </nav>
+    <!--end off canvas navigation-->
+
+    <div id="wrapper">
+
+        <header class="sticky">
+            <div class="container flex_2col">
+                <div class="logo">
+                    <img src="images/logo.png" />
+                </div><!--end of logo-->
+
+                <ul class="main_navi desktop_only">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="natural.html">Explore Nature</a></li>
+                    <li><a href="food.html">Local Flavors</a></li>
+                    <li><a href="heritage.html">Heritage</a></li>
+                    <li><a href="plan.html">Travel Guide</a></li>
+                </ul>
+
+            </div><!--end of container-->
+        </header>
+
+        <div id="plan_hero">
+            <div class="container flex_2col">
+
+            <div class="plan_hero_image">
+                    <img src=".//images/home_hero_image.png" />
+            </div><!--end of plan_hero_image-->
+
+            <div class="herobox">
+                <h2 class="orangetext">Discover Your Unfold 
+                    Beauty In Pontian</h2>
+                <p class="darkgreentext">Stroll through lush mangroves, breathe in crisp sea air, and savor local delights rich in tradition. In Pontian, every moment invites you to slow down, embrace nature, and enjoy life's simple joys.</p>
+            </div><!--end herobox-->
+
+            </div><!--end of container-->
+        </div><!--end of plan_hero-->
+
+        <div id="plan_gallery">
+            <div class="container">
+
+                <div class="plan_gallery_title">
+                    <h3 class="lightgreentext">Don't Forget These Essentials!</h3>
+                    <p class="darkgreentext">Enjoy hotpot with fresh ingredients, rich broths, and stunning coastal views.</p>
+                </div><!--end of plan_gallery_title-->
+
+                <ul class="grid_card">
+                    <li class="card">
+                        <img src="images/glassicon.png" />
+
+                        <div class="card1 flex">
+                            <div class="icontext">
+                             <h1 class="lightgreentext"><li>Sun Protection</li></h2>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <p class="darkgreentext">Pack sunscreen, a hat, and sunglasses—Pontian's outdoor spots can get sunny!</p>
+                    </li>
+
+                    <li class="card">
+                        <img src="images/shoeicon.png" />
+                        
+                        <div class="flex">
+                            <div class="icontext">
+                             <h1 class="orangetext"><li>Comfortable Footwear</li></h2>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <p class="darkgreentext">Whether exploring nature or walking around town, good shoes are a must.</p>
+                    </li>
+
+                    <li class="card">
+                        <img src="images/gazaicon.png" />
+                        
+                        <div class="flex">
+                            <div class="icontext">
+                             <h1 class="lightgreentext"><li>Bug Repellent</li></h2>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <p class="darkgreentext">Essential for visiting nature spots like Tanjung Piai and the bee farm.</p>
+                    </li>
+                </ul>
+
+            </div><!--end of container-->
+        </div><!--end of plan_gallery-->
+
+        <div id="timeline_title">
+            <div class="container">
+
+                <div class="timeline_title">
+                    <h3 class="lightgreentext">Perfect One-Day Pontian Itinerary</h3>
+                    <p class="darkgreentext">Make the most of your day in Pontian with this carefully planned itinerary—featuring nature, culture, and delicious local food.</p>
+                </div><!--end of timeline_title-->
+            </div><!--end of container-->
+        </div><!--end of timeline_title-->
+
+        <div class="timeline">
+
+            <div class="time_container left_container">
+                <div class="text_box">
+                    <img src="images/plancup.png" class="icon-img" />
+                    <img src="images/plan_kopitenggek.jpg" class="food-img" />
+
+                    <h1 class="orangetext">8:30 AM - 9:30 PM | Kickstart Your Day at Kopi Tenggek</h1>
+                    <p class="darkgreentext">Begin with a strong, traditional coffee at Kopi Tenggek, where coffee is brewed in a unique stacked pot system. Enjoy the rich aroma and a classic Malaysian breakfast to fuel your journey.</p>
+
+                    <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.799013032428!2d103.48893730948942!3d1.2951583986870938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0a90539a7b4fd%3A0xc5e1623dd5438a6a!2sKopi%20Tenggek%20Tanjung%20Piai!5e0!3m2!1szh-CN!2smy!4v1743416462445!5m2!1szh-CN!2smy" class="btn_green">Google Map</a></h4>
+                </div><!--end of text_box-->
+            </div><!--end of time_container-->
+
+            <div class="time_container right_container">
+                <div class="text_box">
+                    <img src="images/plantree.png" class="icon-img" />
+                    <img src="images/tanjungpiai_slider1.jpg" class="food-img" />
+
+                    <h1 class="orangetext">09:45 PM - 11:30 PM | Explore Tanjung Piai National Park</h1>
+                    <p class="darkgreentext">Walk through lush mangrove forests, spot wildlife, and stand at the southernmost tip of mainland Asia. The coastal breeze and scenic views make it a perfect morning adventure.</p>
+
+                    <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.841102204572!2d103.5094726!3d1.2681356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0a999e232063f%3A0x9ea9f9581f2ca360!2z5p-U5L2b5Li557uS5q-U6Im-5Zu95a625YWs5Zut!5e0!3m2!1szh-CN!2smy!4v1743412051727!5m2!1szh-CN!2smy" class="btn_green">Google Map</a></h4>
+                </div><!--end of text_box-->
+            </div><!--end of time_container-->
+
+            <div class="time_container left_container">
+                <div class="text_box">
+                    <img src="images/planice.png" class="icon-img" />
+                    <img src="images/icehouse_slider2.jpg" class="food-img" />
+
+                    <h1 class="orangetext">12:00 PM - 01:30 PM | Cool Down & Refresh at Ice House</h1>
+                    <p class="darkgreentext">Beat the heat with Pontian's famous jellyfish shaved ice at Ice House. This unique dessert, paired with crispy prawn crackers and fruit rojak, is the perfect midday treat.</p>
+
+                    <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7502421571376!2d103.44052970948955!3d1.3257824986560647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0af56e53ad33b%3A0x943d4b5e7b10968b!2z5aSP5pel5Yaw5LmL5bGL!5e0!3m2!1szh-CN!2smy!4v1743416379182!5m2!1szh-CN!2smy" class="btn_green">Google Map</a></h4>
+                </div><!--end of text_box-->
+            </div><!--end of time_container-->
+
+            <div class="time_container right_container">
+                <div class="text_box">
+                    <img src="images/plantree.png" class="icon-img" />
+                    <img src="images/plan_kukup.jpg" class="food-img" />
+
+                    <h1 class="orangetext">01:45 PM - 2:30 PM | Discover Pulau Kukup National Park</h1>
+                    <p class="darkgreentext">Take a boat ride to one of the world's largest uninhabited mangrove islands. Stroll along the boardwalk, climb the observation tower, and immerse yourself in this tranquil wetland ecosystem.</p>
+
+                    <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.749502016406!2d103.443894!3d1.3262417999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0af67aaaaaaab%3A0x7122614720a12174!2z6b6f5ZKv5bKb5Zu95a625YWs5Zut!5e0!3m2!1szh-CN!2smy!4v1743412091292!5m2!1szh-CN!2smy" class="btn_green">Google Map</a></h4>
+                </div><!--end of text_box-->
+            </div><!--end of time_container-->
+
+            <div class="time_container left_container">
+                <div class="text_box">
+                    <img src="images/planbee.png" class="icon-img" />
+                    <img src="images/plan_beefarm.jpg" class="food-img" />
+
+                    <h1 class="orangetext">03:00 PM - 5:00 PM | Uncle Tan Stingless Bee Farm</h1>
+                    <p class="darkgreentext">Step into a world of natural wonder and learn about the fascinating stingless bees of Johor.  Uncle Tan's farm offers a unique opportunity to witness these gentle creatures at work, taste their rare and delicious honey, and understand their vital role in our ecosystem.</p>
+
+                    <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5849663057843!2d103.41397870948977!3d1.4246760985559002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0a3a3278ad0c9%3A0x5bd05d02538538df!2sUncle%20Tan%20Orchard%20Stingless%20Bee%20Farm!5e0!3m2!1szh-CN!2smy!4v1743412132010!5m2!1szh-CN!2smy" class="btn_green">Google Map</a></h4>
+                </div><!--end of text_box-->
+            </div><!--end of time_container-->
+
+            <div class="time_container right_container">
+                <div class="text_box">
+                    <img src="images/plannoodle.png" class="icon-img" />
+                    <img src="images/hanada_slider3.jpg" class="food-img" />
+
+                    <h1 class="orangetext">05:45 PM - 06:30 PM | Hanada House</h1>
+                    <p class="darkgreentext">End the day with a cozy Japanese meal at Hanada House, where you can enjoy ramen, chicken cutlet rice, and tempura prawn udon in a warm, homely setting.</p>
+
+                    <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4390985269956!2d103.51104570949006!3d1.506574598472957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d09f09941d1de3%3A0x79ca79360c74c96f!2zSEFOQVlBIOiKseeUsOWxiw!5e0!3m2!1szh-CN!2smy!4v1743416288033!5m2!1szh-CN!2smy" class="btn_green">Google Map</a></h4>
+                </div><!--end of text_box-->
+            </div><!--end of time_container-->
+
+        </div><!--end of timeline-->
+
+        <div id="home_cta">
+            <div class="container">
+                <div class="home_cta_text">
+                    <h3 class="yellowtext">Plan Your Perfect Trip to Pontian</h3>
+                    <p>Discover hidden gems, must-visit attractions, and local flavors—all in one place. Get insider tips and travel guides to make the most of your visit.</p>
+                    <h4><a href="https://tourismjohor.my/" class="btn_green">Explore More on Tourism Johor</a></h4>
+                </div><!--end of home_cta_text-->
+            </div><!--end of container-->
+        </div><!--end of home_cta-->
+
+        <footer>
+            <div class="container">
+                <div class="footer_text">
+                    <h4 class="whitetext"> Discover Pontian</h4>
+                    <p class="whitetext">© 2024 All Rights Reserved. Designed & Developed by Choo Kai Xin & Teo Shi Lin.</p>
+                </div><!--end of footer_text-->
+            </div><!--end of container-->
+        </footer>
+
+    </div><!--end of wrapper-->
+
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    <!--for fancybox image gallery-->
+    <script src="fancybox/fancybox.umd.js"></script>
+
+</body>
+</html>

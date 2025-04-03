@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Nature</title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--for fancybox image gallery-->
+    <link rel="stylesheet" href="fancybox/fancybox.css"/>
+
+    <link rel="stylesheet" href="bxslider/jquery.bxslider.min.css">
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <script src="bxslider/jquery.min.js"></script>
+    <script src="bxslider/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $(".serene_slider").bxSlider();
+        });
+
+        $(document).ready(function(){
+          $(".serene_slider2").bxSlider();
+        });
+      </script>
+
+</head>
+
+<body>
+
+    <!--hamburger icon-->
+    <input type="checkbox" id="menu"/>
+        <label for="menu" class="hamburger mobile_only">
+        <ion-icon name="menu-outline"></ion-icon>
+        </label>
+    <!--end hamburger icon-->
+
+    <!--off canvas navigation-->
+    <nav class="off_navi">          
+        <h3>Navigation</h3>
+        <ul class="navi_bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="natural.html">Explore Nature</a></li>
+            <li><a href="food.html">Local Flavors</a></li>
+            <li><a href="heritage.html">Heritage</a></li>
+            <li><a href="plan.html">Travel Guide</a></li>
+        </ul>
+    </nav>
+    <!--end off canvas navigation-->
+
+    <div id="wrapper">
+
+        <header class="sticky">
+            <div class="container flex_2col">
+                <div class="logo">
+                    <img src="images/logo.png" />
+                </div><!--end of logo-->
+
+                <ul class="main_navi desktop_only">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="natural.html">Explore Nature</a></li>
+                    <li><a href="food.html">Local Flavors</a></li>
+                    <li><a href="heritage.html">Heritage</a></li>
+                    <li><a href="plan.html">Travel Guide</a></li>
+                </ul>
+
+            </div><!--end of container-->
+        </header>
+
+        <div id="natural_hero">
+            <div class="container flex_2col">
+
+                <div class="natural_hero_image">
+                        <img src=".//images/natural_hero.png" />
+                </div><!--end of natural_hero_image-->
+    
+                <div class="natural_hero_text">
+                    <h2 class="orangetext">Immerse Yourself in Pontian's Breathtaking Nature</h2>
+                    <p class="darkgreentext">Step into a world of untouched beauty—where mangroves thrive, islands remain untouched, and lush farms tell stories of nature's abundance. Breathe in fresh air, listen to whispers of forest, and experience the heart of Pontian's great outdoors.</p>
+                </div><!--end of natural_hero_text-->
+    
+            </div><!--end of container-->
+        </div><!--end of natural_hero-->
+
+        <div id="kukup">
+            <div class="container">
+
+            <div>
+                <div class="kukup_title">
+                    <h2 class="orangetext">Discover the Heart of Pontian's Nature</h2>
+                </div><!--end of kukup_title-->
+            </div>
+
+            <div class="container flex_2col">
+
+                    <div class="kukup_image">
+                        <img src="images/natural_kukup.png" />
+                    </div><!--end of kukup_image-->
+
+                    <div class="kukup_text">
+                        <div class="flex centered_flex">
+                            <div class="icon">
+                                <img src="images/treeicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <h1 class="lightgreentext"><li>A Floating Ecosystem</li></h1>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <h3 class="orangetext">Taman Negara Pulau Kukup</h3>
+                        <p class="darkgreentext">Step into a world of tranquility at Pulau Kukup, one of the largest uninhabited mangrove islands in the world. Stroll along wooden boardwalks, spot migratory birds, and witness an ecosystem thriving in perfect harmony.</p>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/checkicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Floating Paradise</span>
+                                    <span class="dosis darkgreentext">- One of the world's largest uninhabited mangrove islands.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/ticketicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Admission:</span>
+                                    <span class="dosis darkgreentext">Citizens Adult Rm5, Child / Senior Rm3, Non Citizens Adult Rm20, Child / Senior Rm10</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/clockicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Operation Time:</span>
+                                    <span class="dosis darkgreentext">Everyday, 9:00am to 5:00pm</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="button_2col">
+                            <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7495020185725!2d103.44131370948956!3d1.326241798655602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0af67aaaaaaab%3A0x7122614720a12174!2z6b6f5ZKv5bKb5Zu95a625YWs5Zut!5e0!3m2!1szh-CN!2smy!4v1743349149366!5m2!1szh-CN!2smy" class="btn_green">Start Exploring</a></h4>
+                            <h4><a href="https://johornationalparks.gov.my/ms/pulau-kukup/" class="btn_green">Official Website</a></h4>
+                        </div>
+
+                    </div><!--end of kukup_text-->
+            </div><!--end of container>-->
+            </div><!--end of container-->
+        </div><!--end of kukup-->
+
+        <div id="tanjung_piai">
+            <div class="container">
+
+                <div class="container flex_2col">
+
+                    <div class="serene_slider">
+                        <div class="slide1"></div>
+                        <div class="slide2"></div>
+                        <div class="slide3"></div>
+                        <div class="slide4"></div>
+                    </div>
+
+                    <div class="tanjung_piai_text">
+                        <div class="flex centered_flex">
+                            <div class="icon">
+                                <img src="images/treeicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <h1 class="lightgreentext"><li>The Southernmost Tip of Asia</li></h1>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <h3 class="orangetext">Taman Negara Johor Tanjung Piai</h3>
+                        <p class="darkgreentext">Stand at the edge of the continent where the land meets the sea. Tanjung Piai is home to sprawling mangroves, rich biodiversity, and the symbolic globe monument marking Asia's southernmost point.</p>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/checkicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Scenic Boardwalks</span>
+                                    <span class="dosis darkgreentext">- Walk above serene waters on a scenic pathway, surrounded by breathtaking coastal views and the soothing sounds.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/ticketicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Admission:</span>
+                                    <span class="dosis darkgreentext">Citizens Adult Rm5, Child / Senior Rm3, Non Citizens Adult Rm20, Child / Senior Rm10</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/clockicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif lightgreentext">Operation Time:</span>
+                                    <span class="dosis darkgreentext">Everyday, 9:00am to 5:00pm</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="button_2col">
+                            <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.841102204572!2d103.5094726!3d1.2681356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0a999e232063f%3A0x9ea9f9581f2ca360!2z5p-U5L2b5Li557uS5q-U6Im-5Zu95a625YWs5Zut!5e0!3m2!1szh-CN!2smy!4v1743348541646!5m2!1szh-CN!2smy" class="btn_green">Start Exploring</a></h4>
+                            <h4><a href="https://johornationalparks.gov.my/ms/tanjung-piai/" class="btn_green">Official Website</a></h4>
+                        </div>
+
+                    </div><!--end of tanjung_piai_text-->
+            </div><!--end of container>-->
+            
+            </div><!--end of container-->
+        </div><!--end of tanjung_piai-->
+
+        <div id="bee_farm">
+            <div class="container">
+
+                <div>
+                    <div class="bee_farm_title">
+                        <h2 class="lightgreentext">Nature's Bounty: From Hive to Harvest</h2>
+                    </div><!--end of bee_farm_title-->
+                </div>
+    
+                <div class="container flex_2col">
+    
+                        <div class="bee_farm_image">
+                            <img src="images/natural_beefarm.png" />
+                        </div><!--end of bee_farm_image-->
+    
+                        <div class="bee_farm_text">
+                            <div class="flex centered_flex">
+                                <div class="icon">
+                                    <img src="images/beeicon.png" />
+                                </div><!--end of icon-->
+                        
+                                <div class="icontext">
+                                    <h1 class="orangetext"><li>A Buzzing Wonder</li></h1>
+                                </div><!--end of icontext-->
+                            </div>
+    
+                            <h3 class="lightgreentext">Uncle Tan Orchard Stingless Bee Farm</h3>
+                            <p class="darkgreentext">Discover the fascinating world of stingless bees and their precious, nutrient-rich honey.</p>
+    
+                            <div class="flex left_flex">
+                                <div class="icon">
+                                    <img src="images/greencheckicon.png" />
+                                </div><!--end of icon-->
+                        
+                                <div class="icontext">
+                                    <p>
+                                        <span class="breeserif orangetext">Meet the Stingless Bees:</span>
+                                        <span class="dosis darkgreentext">Unlike regular honeybees, these tiny pollinators are harmless yet hardworking.</span>
+                                    </p>
+                                </div><!--end of icontext-->
+                            </div>
+    
+                            <div class="flex left_flex">
+                                <div class="icon">
+                                    <img src="images/greencheckicon.png" />
+                                </div><!--end of icon-->
+                        
+                                <div class="icontext">
+                                    <p>
+                                        <span class="breeserif orangetext">Hands-On Activities</span>
+                                        <span class="dosis darkgreentext">- Try honey tasting, learn hive maintenance, and experience honey harvesting firsthand.</span>
+                                    </p>
+                                </div><!--end of icontext-->
+                            </div>
+
+                            <div class="flex left_flex">
+                                <div class="icon">
+                                    <img src="images/greenclockicon.png" />
+                                </div><!--end of icon-->
+                        
+                                <div class="icontext">
+                                    <p>
+                                        <span class="breeserif orangetext">Operation Time:</span>
+                                        <span class="dosis darkgreentext">Everyday, 9:00am to 5:00pm.</span>
+                                    </p>
+                                </div><!--end of icontext-->
+                            </div>
+    
+                            <div class="button_2col">
+                                <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5849663057843!2d103.41397870948977!3d1.4246760985559002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d0a3a3278ad0c9%3A0x5bd05d02538538df!2sUncle%20Tan%20Orchard%20Stingless%20Bee%20Farm!5e0!3m2!1szh-CN!2smy!4v1743412132010!5m2!1szh-CN!2smy" class="btn_orange">Visit Google Map</a></h4>
+                                <h4><a href="https://www.facebook.com/share/18mqsUHQxy/" class="btn_orange">Their Facebook</a></h4>
+                            </div>
+    
+                        </div><!--end of bee_farm_text-->
+                </div><!--end of container>-->
+
+            </div><!--end of container-->
+        </div><!--end of bee_farm-->
+
+        <div id="pineapple">
+            <div class="container">
+
+                <div class="container flex_2col">
+
+                    <div class="serene_slider">
+                        <div class="slide1"></div>
+                        <div class="slide2"></div>
+                        <div class="slide3"></div>
+                        <div class="slide4"></div>
+                    </div>
+
+                    <div class="pineapple">
+                        <div class="flex centered_flex">
+                            <div class="icon">
+                                <img src="images/pineappleicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <h1 class="orangetext"><li>A Golden Harvest</li></h1>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <h3 class="lightgreentext">NICTAR Pineapple Park</h3>
+                        <p class="darkgreentext">Walk through endless fields of pineapple plants and uncover the secrets behind this tropical favorite.</p>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/greencheckicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif orangetext">From Farm to Table</span>
+                                    <span class="dosis darkgreentext">- Experience the journey of fresh pineapples, from lush plantations to delicious homemade products.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/greenticketicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif orangetext">Admission:</span>
+                                    <span class="dosis darkgreentext">RM10 per person.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="flex left_flex">
+                            <div class="icon">
+                                <img src="images/greenclockicon.png" />
+                            </div><!--end of icon-->
+                    
+                            <div class="icontext">
+                                <p>
+                                    <span class="breeserif orangetext">Operation Time:</span>
+                                    <span class="dosis darkgreentext">Everyday, 9:00am to 5:00pm.</span>
+                                </p>
+                            </div><!--end of icontext-->
+                        </div>
+
+                        <div class="button_2col">
+                            <h4><a data-fancybox data-type="map" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4513598850394!2d103.53336230948995!3d1.4998624984797533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d09b00ff25c207%3A0xcb939c0ae968045a!2sNICTAR%20PINEAPPLE%20PARK!5e0!3m2!1szh-CN!2smy!4v1743412196922!5m2!1szh-CN!2smy" class="btn_orange">Visit Google Map</a></h4>
+                            <h4><a href="https://www.facebook.com/share/19pPsP92sr/" class="btn_orange">Their Facebook</a></h4>
+                        </div>
+
+                    </div><!--end of pineapple-->
+            </div><!--end of container>-->
+            
+            </div><!--end of container-->
+        </div><!--end of pineapple-->
+
+        <div id="home_cta">
+
+            <div class="container">
+                <div class="home_cta_text">
+                    <h3 class="yellowtext">Uncover the Heart of Pontian!</h3>
+                    <p>Pontian is more than just a stop—it's a journey of discovery. From charming heritage spots to nature's hidden gems, this coastal town is bursting with experiences waiting to be explored. Indulge in comforting local delights, capture postcard-worthy moments, and create memories that will last a lifetime.</p>
+                    <h4><a href="plan.html" class="btn_green">Plan Your Trip</a></h4>
+                </div><!--end of home_cta_text-->
+            </div><!--end of container-->
+
+        </div><!--end of home_cta-->
+
+        <footer>
+
+            <div class="container">
+                <div class="footer_text">
+                    <h4 class="whitetext"> Discover Pontian</h4>
+                    <p class="whitetext">© 2024 All Rights Reserved. Designed & Developed by Choo Kai Xin & Teo Shi Lin.</p>
+                </div><!--end of footer_text-->
+            </div><!--end of container-->
+
+        </footer>
+
+    </div><!--end of wrapper-->
+    
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+
+    <!--for fancybox image gallery-->
+    <script src="fancybox/fancybox.umd.js"></script>
+
+</body>
+</html>
